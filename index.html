@@ -91,15 +91,13 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>##ARP  <em>（地址解析协议）</em></p>
-<pre><code><span class="label">ARP</span>是根据目标<span class="literal">IP</span>地址获取目标主机的MAC地址的一个TCP/<span class="literal">IP</span>协议。
+        <h2 id="ARP_（地址解析协议）">ARP  <em>（地址解析协议）</em></h2><pre><code><span class="label">ARP</span>是根据目标<span class="literal">IP</span>地址获取目标主机的MAC地址的一个TCP/<span class="literal">IP</span>协议。
 </code></pre><ul>
 <li>主机A的IP地址为192.168.1.1，MAC地址为0A-11-22-33-44-01；</li>
 <li>主机B的IP地址为192.168.1.2，MAC地址为0A-11-22-33-44-02；</li>
 </ul>
 <p>当主机A要与主机B通信时，ARP就是要将主机B的IP地址（192.168.1.2）解析成主机B的MAC地址（0A-11-22-33-44-02）。</p>
-<p>###ARP工作流程<br>&gt;</p>
-<ol>
+<h3 id="ARP工作流程">ARP工作流程</h3><ol>
 <li>首先，主机A在自己的路由表中，确定用于访问主机B的IP地址（192.168.1.2），然后主机A在自己的本地ARP缓存中检查是否存在主机B的MAC地址。</li>
 <li>如果主机A的ARP缓存中没找到主机B的MAC地址，主机A将ARP请求帧广播到本地网络上的所有主机以询问（192.168.1.2）的MAC地址。主机A的IP地址和MAC地址都包含在ARP请求中。本地网络上的每台主机都将检查ARP请求中的IP地址是否与自己的IP地址匹配，不匹配的主机则丢弃ARP请求。</li>
 <li>如果主机B确定ARP请求中的IP地址与自己的IP地址匹配，则将主机A的IP地址和MAC地址映射添加到本地ARP缓存中。</li>
@@ -111,7 +109,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/09/27/什么是ARP/" data-id="ciep1p4br00011wn9db8m7hoa" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/09/27/什么是ARP/" data-id="cifrmm85j0001ofngp64nnshy" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ARP/">ARP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IP/">IP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MAC/">MAC</a></li></ul>
@@ -153,7 +151,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/09/18/my-new-post/" data-id="ciep1p4bv000a1wn93bpu0c49" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/09/18/my-new-post/" data-id="cifrmm85n000aofnghx1jzlui" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/杂七杂八/">杂七杂八</a></li></ul>
@@ -200,7 +198,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/09/15/hello-world/" data-id="ciep1p4az00001wn9j31b8sys" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/09/15/hello-world/" data-id="cifrmm84w0000ofngtdkq18fa" class="article-share-link">Share</a>
       
       
     </footer>
